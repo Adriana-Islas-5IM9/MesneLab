@@ -20,6 +20,7 @@
     return;
     }
 %>
+<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html>
@@ -395,3 +396,4 @@
 
 	</body>
 </html>
+

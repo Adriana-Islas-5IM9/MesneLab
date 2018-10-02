@@ -6,6 +6,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<<<<<<< HEAD
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -260,4 +261,5 @@
 
 	</body>
 </html>
+
 
