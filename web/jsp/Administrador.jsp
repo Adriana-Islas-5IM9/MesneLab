@@ -1,42 +1,18 @@
 <%-- 
-    Document   : Registro
-    Created on : 1/10/2018, 07:33:38 AM
-    Author     : Alumno
-
-    jsp:useBean id="usuario" scope="page" class="mx.edu.ipn.cecyt9.mesnelab.model.Usuario"></jsp:useBean
-        ${usuario.setNombre("Adriana")}
-        ${usuario.nombre}	
+    Document   : Administrador
+    Created on : 4/10/2018, 07:29:53 PM
+    Author     : Student
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%
-    //String usuario = request.getParameter("usuario") == null ? "" : request.getParameter("usuario");
-%>
 <!DOCTYPE HTML>
 <html>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Mesne - Sign In </title>
+	<title>Mesne - Admin</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="freehtml5.co" />
-
-	<!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
-
+	
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
@@ -84,10 +60,10 @@
 		<div class="container-wrap">
 			<div class="top-menu">
 				<div class="row">
-					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.html">Mesne</a></div>
+					<div class="col-xs-3">
+						<div id="fh5co-logo"><a href="index.html">Mesne - Admin</a></div>
 					</div>
-					<div class="col-xs-10 text-right menu-1">
+					<div class="col-xs-9 text-right menu-1">
 						<ul>
                                                     <li class="active"><a href="index.jsp">Home</a></li>
                                                     <li><a href="../jsp/Login.jsp">Log In</a></li>
@@ -113,13 +89,13 @@
 		<aside id="fh5co-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url(../sources/img/bookwriting.jpg);">
+			   	<li style="background-image: url(../sources/img/admin2.png);">
 			   		<div class="overlay-gradient"></div>
 		   			<div class="row">
 			   			<div class="col-md-6 col-md-offset-3 slider-text slider-text-bg">
 			   				<div class="slider-text-inner text-center">
-			   					<h1>Sign in</h1>
-									<h2>Para completar tu registro llena el siguiente formulario: </h2>
+			   					<h1>Bienvenido</h1>
+								<h2>Aquí podrás administrar los roles asignados a los usuarios </h2>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -130,25 +106,18 @@
             <div id="fh5co-work">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <form method="post" action="../Registro">
+                        <form method="post" action="../Login">
                             <div class="form-group">
                               <label for="exampleInputEmail1">Nombre de usuario:</label>
                               <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu dirección de correo electrónico">
-                              <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu e-mail con alguien más.</small>
+                              
                             </div>
                             <div class="form-group">
                               <label for="exampleInputPassword1">Contraseña:</label>
                               <input type="password" name="contra" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu contraseña">
                             </div>
-                            <div class="form-group">
-                              <label for="exampleInputPassword1">Confirmación:</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu contraseña nuevamente">
-                            </div>
-                            <div class="form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label" for="exampleCheck1">Revisarme</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Enviar</button>
+                           
+                            <button type="submit" class="btn btn-primary">Ingresar</button>
                         </form>
                     </div>
                 </div>
@@ -241,4 +210,5 @@
 
 	</body>
 </html>
+
 

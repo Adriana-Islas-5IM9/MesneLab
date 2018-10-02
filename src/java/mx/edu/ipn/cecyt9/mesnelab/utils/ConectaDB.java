@@ -39,6 +39,9 @@ public class ConectaDB {
     public void cierra() throws SQLException{//Metodo para cerrar conexión
         con.close();
     }
+    public Connection getConnection(){
+        return con;
+    }
     //Métodos para ejecutar sentencias SQL en la BD
     public int update(String update) throws SQLException{//Para hacer insert, update, o delete
         state = con.createStatement();
