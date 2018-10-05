@@ -78,12 +78,12 @@ public class Login extends HttpServlet {
                 System.out.println("No está registrado o metió mal algún dato");
             }
 
-            miDB.cierra();
-            
+            miDB.cierra();   
         } catch (SQLException ex) {
             Logger.getLogger(Registro.class.getName()).log(Level.SEVERE, null, ex);
         }
         
+        response.sendRedirect("jsp/Administrador.jsp");
         
     }
 

@@ -94,7 +94,7 @@
 		   			<div class="row">
 			   			<div class="col-md-6 col-md-offset-3 slider-text slider-text-bg">
 			   				<div class="slider-text-inner text-center">
-			   					<h1>Sign in</h1>
+			   					<h1>Log in</h1>
 									<h2>Para ingresar a tu cuenta llena el siguiente formulario: </h2>
 			   				</div>
 			   			</div>

@@ -106,20 +106,19 @@
             <div id="fh5co-work">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <form method="post" action="../Login">
-                            <div class="form-group">
-                              <label for="exampleInputEmail1">Nombre de usuario:</label>
-                              <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu dirección de correo electrónico">
-                              
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleInputPassword1">Contraseña:</label>
-                              <input type="password" name="contra" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu contraseña">
-                            </div>
-                           
-                            <button type="submit" class="btn btn-primary">Ingresar</button>
-                        </form>
+                        <div class="col-md-2 text-center" ><h4>ID</h4></div>
+                        <div class="col-md-2 text-center" ><h4>Usuario</h4></div>
+                        <div class="col-md-2 text-center" ><h4>Correo</h4></div>
+                        <div class="col-md-2 text-center" ><h4>Rol</h4></div>
+                        
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 text-center" >1</div>
+                    <div class="col-md-2 text-center" >adri.012</div>
+                    <div class="col-md-2 text-center" >adri.012@gmail.com</div>
+                    <div class="col-md-2 text-center" >Sin asignar</div>
+                    <div class="col-md-2 text-center" ><h4><a href="#">Asignar rol</a></h4></div>
                 </div>
             </div>
 		
