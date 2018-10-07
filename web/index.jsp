@@ -20,7 +20,6 @@
     return;
     }
 %>
-<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html>
