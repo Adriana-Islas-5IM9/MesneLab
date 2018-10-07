@@ -113,7 +113,7 @@
                                                         </div>
                                                 </div>
                                         </li>
-                                        <li style="background-image: url(images/img_bg_2.jpg);">
+                                        <!--<li style="background-image: url(images/img_bg_2.jpg);">
                                                 <div class="overlay-gradient"></div>
                                                 <div class="container-fluid">
                                                         <div class="row">
@@ -154,7 +154,7 @@
                                                                 </div>
                                                         </div>
                                                 </div>
-                                        </li>	   	
+                                        </li>-->	   	
                                         </ul>
                                 </div>
                         </aside>
