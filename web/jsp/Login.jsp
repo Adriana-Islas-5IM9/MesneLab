@@ -65,7 +65,7 @@
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-                                                    <li class="active"><a href="index.jsp">Home</a></li>
+                                                    <li class="active"><a href="../index.jsp">Home</a></li>
                                                     <li><a href="../jsp/Login.jsp">Log In</a></li>
                                                     <li><a href="../jsp/Registro.jsp">Sign In</a></li>
                                                     <li class="has-dropdown">
